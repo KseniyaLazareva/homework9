@@ -3,12 +3,12 @@ public class Radio {
     private int currentVolume;
     private int numberOfRadioStations;
 
-    public Radio(int numberOfRadioStations) {
-        this.numberOfRadioStations = numberOfRadioStations;
-    }
-
     public Radio() {
         this.numberOfRadioStations = 10;
+    }
+
+    public Radio(int numberOfRadioStations) {
+        this.numberOfRadioStations = numberOfRadioStations;
     }
 
     public int getCurrentRadioStation() {
